@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="23165" started-at="2022-06-23T20:50:10 UYT" finished-at="2022-06-23T20:50:33 UYT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="23165" started-at="2022-06-23T20:50:10 UYT" finished-at="2022-06-23T20:50:33 UYT">
+      <class name="TestFramework.FirstTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestFramework.FirstTest@2038ae61]" name="initialize" is-config="true" duration-ms="11182" started-at="2022-06-23T20:50:10 UYT" finished-at="2022-06-23T20:50:21 UYT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="firstRun()[pri:0, instance:TestFramework.FirstTest@2038ae61]" name="firstRun" duration-ms="11944" started-at="2022-06-23T20:50:21 UYT" finished-at="2022-06-23T20:50:33 UYT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstRun -->
+      </class> <!-- TestFramework.FirstTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
