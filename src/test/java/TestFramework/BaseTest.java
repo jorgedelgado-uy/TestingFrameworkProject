@@ -3,6 +3,7 @@ package TestFramework;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 public class BaseTest
@@ -16,6 +17,11 @@ public class BaseTest
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--start-maximized");
         _webDriver = new ChromeDriver(chromeOptions);
+    }
+
+    @AfterClass
+    public void tearDown(){
+        _webDriver.close();
     }
 
 }
